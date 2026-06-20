@@ -14,4 +14,40 @@
     align-items: center;
     gap: 8px;
 }
+.search-container {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    
+}
 
+.lens{
+    position:relative;
+    left: 35px;
+
+}
+.search-box{
+    border-radius:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.being{
+    color: hotpink;
+    
+}
+#name{
+    text-align : center;
+
+}
+#description{
+    color:grey;
+    text-align : center;
+}
+#status{
+    color:green;
+    font-size: 35px;
+}

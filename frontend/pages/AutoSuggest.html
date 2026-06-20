@@ -7,20 +7,27 @@
     <link rel="stylesheet" href="../css/AutoSuggest.css">
 </head>
 <body>
+
     <div class="status-bar">
         <span class="gear" aria-label="Settings">&#x2699;</span>
         <div class="status-info">
-            <span>&#x2022; Online</span>
+            <span id ="status">&#x2022;</span>
+            <span> Online</span>
             <span>|</span>
             <span>&#x23F0; - ms</span>
         </div>
     </div>
-    <h1>AutoSuggest</h1>
-    <p>One million phrases. Four Algorithms. Prefix Based Auto Suggest</p>
-    
-    <span style="font-size: 24px; color: #000000;">&#x1F50D;</span>
-    <input type = "text" placeholder="Start typing to search phrases">
 
+    <h1 id = "name"><span class = "being"> Auto</span>Suggest</h1>
+    <p id = "description">One million phrases. Four Algorithms. Prefix Based Auto Suggest</p>
+    
+    <div class="search-container">
+        <span class= "lens" >&#x1F50D;</span>
+        <input  class = "search-box" type = "text" placeholder="Start typing to search...">
+        <div id = "search-suggestions">
+            
+        </div>
+    </div>         
 
 </body>
 </html>
